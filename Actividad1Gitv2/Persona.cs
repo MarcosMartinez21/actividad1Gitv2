@@ -39,5 +39,15 @@ namespace Actividad1Gitv2
         {
             _edad = edad;
         }
+
+        public bool esMayorEdad()
+        {
+            bool esMayor = false;
+            if( _edad >= 18)
+            {
+                esMayor  = true;
+            }
+            return esMayor;
+        }
     }
 }

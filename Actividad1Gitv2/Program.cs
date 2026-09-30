@@ -10,6 +10,8 @@ namespace Actividad1Gitv2
 
             persona.SetEdad(20);
             persona.SetNombre("Marcos");
+            persona.esMayorEdad();
+
         }
     }
 }
