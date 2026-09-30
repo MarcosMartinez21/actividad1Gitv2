@@ -19,5 +19,16 @@ namespace Actividad1Gitv2
         {
             return $"Nombre: {_nombre} \nEdad: {_edad}";
         }
+
+        public bool esMayorEdad()
+        {
+            bool esMayor = false;
+            if( _edad >= 18)
+            {
+                esMayor  = true;
+            }
+            return esMayor;
+        }
+
     }
 }
