@@ -14,5 +14,11 @@ namespace Actividad1Gitv2
             _nombre = nombre;
             _precio = precio;
         }
+
+        public string MostrarDatos()
+        {
+            return ($"Nombre:{_nombre} \n" +
+                $"Precio: {_precio}");
+        }
     }
 }
