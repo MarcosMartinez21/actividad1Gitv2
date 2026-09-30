@@ -8,5 +8,11 @@ namespace Actividad1Gitv2
     {
         private string _nombre;
         private int _edad;
+
+        public Persona(string nombre, int edad)
+        {
+            _nombre = nombre;
+            _edad = edad;
+        }
     }
 }
