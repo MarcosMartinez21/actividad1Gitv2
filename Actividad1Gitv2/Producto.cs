@@ -8,5 +8,11 @@ namespace Actividad1Gitv2
     {
         private string _nombre;
         private double _precio;
+
+        public Producto(string nombre, double precio)
+        {
+            _nombre = nombre;
+            _precio = precio;
+        }
     }
 }
